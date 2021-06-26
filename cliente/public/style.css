@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+:root{
+/*	--azul: #004680;
+	--azul-claro:#005580;*/
+	--gold:#E89D3B;
+	--branco:#FFF;
+	--cinza-claro: #3F434D;
+	--cinza-escuro: #2F3136;
+	--cinza-medio: #313640;
+	--verde: #28A745;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Roboto;
+    color: #FFF;
+
+}
+
+body{
+    background-color: var(--cinza-escuro);
+}
+
+.bg-cinza-claro{
+    background-color: var(--cinza-claro);
+}
+
+.menu{
+    font-weight: 900;
+    text-transform: uppercase ;
+}
+.menu ul li:hover {
+    background-color: var(--cinza-medio);
+}
+
+.hide{
+	display: none;
+}
+.active{
+	background-color: var(--cinza-escuro);
+}
+
+#Filmes, #Animes{
+    padding-top: 10px;
+
+}
+
+.card {
+    background-color: var(--cinza-claro);
+    width: 200px;
+}
+#addAnime, #addFilme{
+    padding: 20px;
+}
+
+input{
+    background-color: var(--cinza-escuro);
+    border: 1px solid white;
+    color: #FFF;
+    padding: 3px;
+}
+
+#addAnime button, #addFilme button{
+    margin-top: 10px;
+}
+
+#addAnime img, #addFilme img{
+    border: none;
+}
+
+.card-filme{
+    max-width: 200px;
+    max-height: 280px;
+    margin: 30px 10px;
+}
+
+.card-filme img {
+    max-height: 280px;
+    border: 4px solid white;
+}
+.card-filme p {
+    text-align: center;
+}
+
+.titleSug{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 4rem;
+    border-bottom: 5px solid white;
+}
+.title::before{
+    height: 10px;
+    background-color: white;
+}
